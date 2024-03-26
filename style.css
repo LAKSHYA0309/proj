@@ -14,10 +14,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+body {
+    background: linear-gradient(-45deg, #6b7280, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 10s ease infinite;
     height: 100vh;
 }
 
@@ -33,7 +33,7 @@
     100% {
         background-position: 0% 50%;
     }
-} */
+}
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -165,12 +165,19 @@ header {
 
 .header__image {
   position: relative;
+  background-image: url(https://3.imimg.com/data3/QB/SJ/MY-8376217/online-electronic-shopping-store.jpg);
+   background-size: cover;
+  background-position: center; 
+  /* width: 200px; */
 }
+ 
+
 
 .header__image img {
   max-width: 400px;
   position: absolute;
-  bottom: -5rem;
+  
+  /* bottom: -5rem; */
 }
 
 .collection__container {
